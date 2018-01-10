@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face{
+	font-family: 'Lobster';
+	src: url('./polices/Lobster.otf');
+}
+
+@font-face{
+	font-family: 'Spinnaker-Regular';
+	src: url('./polices/Spinnaker-Regular.ttf');
+}
+
+header{
+	margin-top:20px;
+}
+
+body{
+	 text-align: center;
+}
+
+h1 a{
+	font-size: 76px;
+	font-family: 'Lobster';
+	text-decoration: none;
+	text-align: center;
+	color:  #1C3353;
+	text-shadow:0 0 10px #FFFFFF;
+}
+
+
+
+.bouton a{
+	text-decoration:none;
+	color:#FFFFFF;
+	background-color:#2B689C;
+	padding:3%;
+}
+
+.titrePage{
+  color: #2140B9;
+  font-family: 'Pacifico', cursive;
+}
+
+.contenu{
+	background-color: #EDF7F2;
+	padding:1%;
+	margin :5% 20% 5%;
+	border-radius: 40px 40px 40px 40px;
+	opacity:0.85;
+    
+}
+
+img {
+    border-radius: 5%;
+	opacity:1;
+}
+
+footer{
+	background:#D6DFE4;
+	width:100%;
+	display:flex;
+	justify-content: center;
+	padding-top:20px;
+}
+
+#contacter input,textarea{
+	display:flex;
+	color:#A9A99C;
+	background-color:#415670;
+	width:605px;
+	margin:8px;
+}
+#Infos{
+	margin-right:1%;
+}
+textarea {
+	height:130px;
+}
+
+input{
+	height:31px; 
+}
+
+
+@media screen and (max-width: 1300px){
+    
+    .contenu{ 
+        margin: 15%;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    
+    .contenu{ 
+        margin: 10%;
+    }   
+    
+}
+
+
+@media screen and (max-width: 800px){
+    
+        
+    footer{
+        flex-direction: column;
+    }
+    
+    textarea{
+        height:70px;
+    }
+    #Infos{
+        margin-right:1%;
+        margin-left:1%;
+    }
+    
+    #contacter input, textarea{
+        width: 85%;
+        display: inline-table;
+    }
+}
+
+@media screen and (max-width: 550px){
+    
+    .contenu{ 
+        margin: 0%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }   
+   
+}

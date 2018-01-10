@@ -1,0 +1,46 @@
+body{
+	background-image:url("../Images/Accueil.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.contenu{
+	display:flex;
+	justify-content:space-around ;
+}
+
+.titre{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+h1{
+	color: #046380;
+}
+
+
+@media screen and (max-width: 1000px){
+    .contenu{
+        flex-direction: column;           
+    }
+    
+    .bouton a{
+        padding:2%;
+        margin-bottom: 3%;
+        
+    }
+    
+    #texte{
+        margin-bottom: 3%;
+    }
+    
+    .titre{
+        margin-bottom: 1%;
+    }
+    
+    .article img{
+        width: 85%;
+        height: 100%;
+    }
+}

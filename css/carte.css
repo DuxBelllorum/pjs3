@@ -1,0 +1,47 @@
+body{
+  background-image: url("../Images/Lyon.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  text-align:justify;
+  text-align: center;
+}
+
+
+.carte{
+ margin-left:20%;
+}
+
+.container{
+    color: #FFF;
+    margin: 15%;
+    margin-bottom: 0%;
+}
+
+.map__image{
+    width: 70%;
+    float: left;
+}
+
+.map__image path{
+    fill: #D8DDF2;
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+.map__image path:hover{
+    fill: #163ee2;
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+g:hover path{
+    fill: red;
+}
+
+
+
+button{
+    float: left;
+}
+
+http://blog.enguehard.info/carte-de-france-regions-departements-en-svg/

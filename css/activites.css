@@ -1,0 +1,84 @@
+/*---------------------texte---------------------*/
+
+
+h2{
+	font-size: 30px;
+	font-family: 'Spinnaker-Regular';
+	text-align: center;
+	margin-bottom:1%;
+}
+
+h3{
+	font-size: 20px;
+	font-family: 'Spinnaker-Regular';
+	text-align: center;
+}
+
+.texte p{
+	font-size: 15px;
+	font-family: 'Spinnaker-Regular';
+	text-align: justify;
+}
+
+.paragraphe{
+	border: 2px black inset;
+	border-radius: 60px;
+	background-color: white;
+	opacity: 0.83;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	padding: 25px 50px 75px 100px;
+}
+
+.article1, .article2, .article3, .article4, .article5 {
+	display:flex;
+	margin-bottom:2%;
+}
+
+.texte{
+	padding:1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*---------------------image---------------------*/
+
+body{
+  background-image: url("../images/fde_activites.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  text-align: center;
+}
+
+a img{
+	margin-top: 2%;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .article3 {
+        flex-direction: column;
+        
+    }
+    
+    .article3 img {
+        width: 85%;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .article1, .article2, .article4, .article5{
+        flex-direction: column;
+    }
+    
+    .article1 img, .article2 img, .article4 img, .article5 img {
+        width: 85%;
+        align-self: center;
+    }
+    
+}

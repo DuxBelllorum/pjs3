@@ -1,0 +1,60 @@
+body{
+  background-image: url("../Images/Lyon.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  text-align:justify;
+  text-align: center;
+}
+
+.titrePage{
+		text-align: center;
+}
+
+.titre1,.titre3{
+  color: #046380;
+  padding: 3%;
+}
+
+.paragraphe1{
+  display: flex;
+  margin-bottom: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.para2{
+  float: left;
+  width:45%;
+}
+
+.para2  h1{
+  color: #046380;
+  padding: 3%;
+}
+
+.paragraphe2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.paragraphe2 img{
+	width: 40%;
+	height: 7%;
+}
+
+.paragraphe3 img{
+  width: 50%;
+}
+
+@media screen and (max-width:1000px){
+    .paragraphe2 {
+        flex-direction: column;
+        justify-content: center; 
+    }
+        
+    .paragraphe2 img{
+        width: 85%;
+        
+    }
+    
+}

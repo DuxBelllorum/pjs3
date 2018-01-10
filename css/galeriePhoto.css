@@ -1,0 +1,205 @@
+body{
+  text-align: center;
+  background-image: url("../Images/background.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.logo{
+	background-image:url("../Images/logo.png");
+	display:flex;
+	height:142px;
+	width:129px;
+	background-repeat:no-repeat;
+    display: -webkit-inline-box;
+    margin-top: 5%;
+}
+
+.paragraphe{
+    margin-bottom: 2.5%;
+}
+
+#slide2img, #slide3img, #slide4img{
+    width: 100%;
+    overflow: hidden;
+    display: inline-table;
+}
+#slide2img figure img, #slide3img figure img, #slide4img figure img{
+    width: 20%;
+    height: 450px;
+    float: left;
+}
+
+#section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11 {
+    margin-bottom: 2.5%;
+} 
+
+#slide2img figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 14s slidy2 infinite;
+}
+
+#slide3img figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 22s slidy3 infinite;
+}
+
+#slide4img figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 30s slidy4 infinite;
+}
+
+
+/*************/
+/* ANIMATION */
+/*************/
+
+/*Pour 4 images : chacune restant 15% du temps*/
+@-webkit-keyframes slidy4{
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+
+/*Pour 3 images : chacune restant 15% du temps*/
+@-webkit-keyframes slidy3{
+    0% { left: 0%; }
+    30% { left: 0%; }
+    35% { left: -100%; }
+    65% { left: -100%; }
+    70% { left: -200%; }
+    95% { left: -200%; }
+    100% { left: -300%; }
+}
+
+/*Pour 2 images : chacune restant 15% du temps*/
+@-webkit-keyframes slidy2{
+    0% { left: 0%; }
+    45% { left: 0%; }
+    50% { left: -100%; }
+    95% { left: -100%; }
+    100% { left: -200%; }
+}
+
+
+
+#figcaption{
+    position: absolute;
+}
+
+
+@media screen and (max-width: 1800px){
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 420px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 470px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 450px;
+        float: left;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    
+   #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 450px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    
+   #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 400px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 350px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 350px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 550px){
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 300px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 200px;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 350px){
+    
+   #slide2img figure img, #slide3img figure img, #slide4img figure img{
+        width: 20%;
+        height: 180px;
+        float: left;
+    }
+}
